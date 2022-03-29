@@ -21,7 +21,7 @@ import TheFooter from "@/components/organisms/TheFooter.vue";
   min-height: calc(100vh - 69px - 64px);
   background-color: #fff;
   font-size: 0.75rem;
-  line-height: 1.25rem;
+  line-height: 1.75rem;
   padding: 1.25rem;
 }
 
@@ -31,7 +31,7 @@ import TheFooter from "@/components/organisms/TheFooter.vue";
 
 #contents h2 {
   padding: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin: 1rem 0 0.5rem;
   font-weight: bold;
   border-left-width: 4px;
   border-color: #1565C0;
@@ -40,9 +40,19 @@ import TheFooter from "@/components/organisms/TheFooter.vue";
 
 #contents h3 {
   padding: 0.25rem 0.25rem;
-  margin-bottom: 0.5rem;
+  margin: 2rem 0 0.5rem;
   font-weight: bold;
   border-bottom-width: 2px;
+  border-color: #1565C0;
+  background-color: #fff;
+}
+
+#contents h4 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  padding: 0 0.5rem;
+  font-weight: bold;
+  border-left-width: 2px;
   border-color: #1565C0;
   background-color: #fff;
 }
