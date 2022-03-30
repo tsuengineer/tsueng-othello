@@ -16,6 +16,10 @@ import TheFooter from "@/components/organisms/TheFooter.vue";
 @tailwind components;
 @tailwind utilities;
 
+a {
+  text-decoration: underline;
+}
+
 /* メイン */
 #contents {
   min-height: calc(100vh - 69px - 64px);

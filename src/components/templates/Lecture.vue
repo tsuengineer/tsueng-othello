@@ -4,10 +4,10 @@
 
         <section>
             <Text tag="h2">講座</Text>
-
+            <Text tag="h3">初心者向け</Text>
             <ul>
               <li>
-                <Text><a href="/lecture/terminology">・用語</a></Text>
+                <Text>・<a href="/lecture/terminology">用語</a></Text>
               </li>
               <li>
                 <Text>・隅の重要性</Text>

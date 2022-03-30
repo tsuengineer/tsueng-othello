@@ -20,6 +20,26 @@ const routes: Array<RouteRecordRaw> = [
     path: '/strategy-by-rate',
     name: 'strategy-by-rate',
     component: () => import('../views/StrategyByRateView.vue')
+  },
+  {
+    path: '/strategy-by-rate/under800',
+    name: 'strategy-by-rate-under800',
+    component: () => import('../views/StrategyByRateUnder800View.vue')
+  },
+  {
+    path: '/strategy-by-rate/under1000',
+    name: 'strategy-by-rate-under1000',
+    component: () => import('../views/StrategyByRateUnder1000View.vue')
+  },
+  {
+    path: '/strategy-by-rate/under1200',
+    name: 'strategy-by-rate-under1200',
+    component: () => import('../views/StrategyByRateUnder1200View.vue')
+  },
+  {
+    path: '/strategy-by-rate/under1500',
+    name: 'strategy-by-rate-under1500',
+    component: () => import('../views/StrategyByRateUnder1500View.vue')
   }
 ]
 

@@ -78,24 +78,10 @@ header > #header-inner #hamburger {
   width: 1.25rem;
 }
 
-header #balloon {
-  position: absolute;
-  display: block;
-  top: 65px;
-  right: 30px;
-  height: auto;
-  width: 200px;
-  color: #000;
-  background: #f6f6f6;
-  border-radius: 5px;
-  z-index: 9999;
-  overflow: hidden;
+header a {
+  text-decoration: none;
 }
 
-header #balloon li {
-  padding: 0.75rem;
-  border-bottom-width: 1px;
-}
 
 .ham {
   cursor: pointer;
