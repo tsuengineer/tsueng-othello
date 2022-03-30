@@ -20,6 +20,12 @@ a {
   text-decoration: underline;
 }
 
+.marker {
+  background: linear-gradient(transparent 65%, #ff3 65%);
+  font-weight: bold;
+  border-radius:6px;
+}
+
 /* メイン */
 #contents {
   min-height: calc(100vh - 69px - 64px);
