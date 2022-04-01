@@ -28,7 +28,6 @@
     <nav class="menu absolute w-60 right-3 top-14 border rounded shadow-lg bg-white" :class="isActive ? 'active' : ''">
         <ul>
             <li><a href="/lecture">講座</a></li>
-            <li><a href="/strategy-by-rate">レート別戦略</a></li>
             <li>問題集</li>
         </ul>
     </nav>

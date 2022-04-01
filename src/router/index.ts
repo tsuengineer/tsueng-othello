@@ -9,38 +9,18 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/lecture',
     name: 'lecture',
-    component: () => import('../views/LectureView.vue')
+    component: () => import('../views/lecture/LectureView.vue')
   },
   {
-    path: '/lecture/terminology',
-    name: 'terminology',
-    component: () => import('../views/TerminologyView.vue')
+    path: '/lecture/beginner/terminology',
+    name: 'Terminology',
+    component: () => import('../views/lecture/beginner/TerminologyView.vue')
   },
   {
-    path: '/strategy-by-rate',
-    name: 'strategy-by-rate',
-    component: () => import('../views/StrategyByRateView.vue')
+    path: '/lecture/beginner/importance-of-corners',
+    name: 'ImportanceOfCorners',
+    component: () => import('../views/lecture/beginner/ImportanceOfCornersView.vue')
   },
-  {
-    path: '/strategy-by-rate/under800',
-    name: 'strategy-by-rate-under800',
-    component: () => import('../views/StrategyByRateUnder800View.vue')
-  },
-  {
-    path: '/strategy-by-rate/under1000',
-    name: 'strategy-by-rate-under1000',
-    component: () => import('../views/StrategyByRateUnder1000View.vue')
-  },
-  {
-    path: '/strategy-by-rate/under1200',
-    name: 'strategy-by-rate-under1200',
-    component: () => import('../views/StrategyByRateUnder1200View.vue')
-  },
-  {
-    path: '/strategy-by-rate/under1500',
-    name: 'strategy-by-rate-under1500',
-    component: () => import('../views/StrategyByRateUnder1500View.vue')
-  }
 ]
 
 const router = createRouter({

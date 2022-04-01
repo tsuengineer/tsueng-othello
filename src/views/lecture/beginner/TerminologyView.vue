@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Terminology from '@/components/templates/Terminology.vue'; // @ is an alias to /src
+import Terminology from '@/components/templates/lecture/beginner/Terminology.vue';
 
 export default defineComponent({
   name: 'TerminologyView',

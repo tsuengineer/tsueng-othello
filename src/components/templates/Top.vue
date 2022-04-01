@@ -6,7 +6,7 @@
             <Text tag="h2">はじめに</Text>
             <Text>
                 このページは手っ取り早くオセロが強くなりたい人向けのページです。<br>
-                <a href="https://wars.fm/reversi?lang=ja">オセロクエスト</a>で灰～緑レートの人が1500(青レート)を目指すことを想定しています。
+                オセロクエストで灰～緑レートの人が1500(青レート)を目指すことを想定しています。
             </Text>
         </section>
 
@@ -19,7 +19,7 @@
                     <Text tag="h3">
                       <a :href="content.path">{{ content.title }}</a>
                     </Text>
-                    <Text size="small">{{ content.discriptions.join('/') }}</Text>
+                    <Text size="small">{{ content.discriptions }}</Text>
                 </li>
               </ul>
             </template>
@@ -46,9 +46,7 @@ export default defineComponent({
           {
             title: '講座',
             path: '/lecture',
-            discriptions: [
-                '用語', '隅の重要性', '終盤の考え方', '序盤～中盤の考え方'
-            ],
+            discriptions: '初心者向け講座',
           },
           // {
           //   title: '隅の重要性',
@@ -71,19 +69,17 @@ export default defineComponent({
           //     '打てる場所が多い方が有利', '打てる場所を減らさないように打つ', '全滅に気を付ける', '辺の取り方'
           //   ],
           // },
-          {
-            title: 'レート別戦略',
-            path: '/strategy-by-rate',
-            discriptions: [
-              '800未満', '～1000未満', '～1200未満', '～1500未満'
-            ],
-          },
+          // {
+          //   title: 'レート別戦略',
+          //   path: '/strategy-by-rate',
+          //   discriptions: [
+          //     '800未満', '～1000未満', '～1200未満', '～1500未満'
+          //   ],
+          // },
           {
             title: '問題集',
-            path: '/',
-            discriptions: [
-              '中割り', '連打'
-            ],
+            path: '#',
+            discriptions: '中割り、連打など',
           },
         ]
       }

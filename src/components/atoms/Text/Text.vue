@@ -22,7 +22,7 @@ export default defineComponent({
       type: String,
       default: 'black',
       validator: (value: string) => {
-        return ['black', 'white', 'red', 'blue', 'light_blue', 'navy'].includes(
+        return ['black', 'white', 'gray'].includes(
             value
         );
       },
@@ -76,6 +76,9 @@ export default defineComponent({
   }
   &_white {
     color: "#fff";
+  }
+  &_gray {
+    color: "#888";
   }
 }
 </style>

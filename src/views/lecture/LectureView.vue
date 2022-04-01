@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Lecture from '@/components/templates/Lecture.vue'; // @ is an alias to /src
+import Lecture from '@/components/templates/lecture/Lecture.vue'; // @ is an alias to /src
 
 export default defineComponent({
   name: 'LectureView',

@@ -4,7 +4,7 @@
 
         <section>
 
-            <Text tag="h2">レート800未満</Text>
+            <Text tag="h2">隅の重要性</Text>
             <Text>レート800未満同士の対局では、序盤から隅を取ったり取られたるするケース多いです。</Text>
             <Text>相手に隅を取られないようにすることが重要となります。</Text>
             <Text>下記の事項を守ることで相手より先に隅を取ることができ、有利に試合を進められます。</Text>
@@ -71,8 +71,8 @@ export default defineComponent({
   setup() {
     const topicPaths = [
       {path: '/', label: 'トップページ'},
-      {path: '/strategy-by-rate', label: 'レート別戦略'},
-      {path: null, label: 'レート800未満'},
+      {path: '/lecture', label: '講座'},
+      {path: null, label: '隅の重要性'},
     ];
 
     return {
