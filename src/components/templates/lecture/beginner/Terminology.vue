@@ -38,9 +38,9 @@
 
              <Text tag="h4">ウィング</Text>
              <iframe width="320" height="386" scrolling="no" src="https://tsueng.dev/hamlite/?start_board=-XXXXX--X-XXXX--XX----XXXO----OXXX----OX-X----OXc-XXXX---XabXX-- X"></iframe>
-             <Text>山と同様に、上図の上辺を<span class="marker">ピュアウィング</span>、右辺を<span class="marker">余裕ウィング</span>といいます。</Text>
-             <Text>下辺のように、2つ隙間が空いていて白からいつでもa,bに打てる形を<span class="marker">不安定ウィング</span>、左辺の形を<span class="marker">セミウィング</span>といいます。</Text>
-             <Text>また、白がcに打ったときの左辺の形を<span class="marker">双方C打ち</span>といいます。</Text>
+             <Text>山と同様に、上図の上辺を<span class="marker">ピュアウィング</span>、右辺を<span class="marker">余裕ウィング</span>といいます。<br>
+             下辺のように、2つ隙間が空いていて白からいつでもa,bに打てる形を<span class="marker">不安定ウィング</span>、左辺の形を<span class="marker">セミウィング</span>といいます。<br>
+             また、白がcに打ったときの左辺の形を<span class="marker">双方C打ち</span>といいます。</Text>
 
              <Text tag="h4">ブロック</Text>
              <iframe width="320" height="386" scrolling="no" src="https://tsueng.dev/hamlite/?start_board=--XXXX----XXXX--aX----XXbX----X-XX----X-XX----XX--XXXX----XXX--- X"></iframe>

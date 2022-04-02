@@ -21,6 +21,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'ImportanceOfCorners',
     component: () => import('../views/lecture/beginner/ImportanceOfCornersView.vue')
   },
+  {
+    path: '/lecture/beginner/control-the-center',
+    name: 'ControlTheCenter',
+    component: () => import('../views/lecture/beginner/ControlTheCenterView.vue')
+  },
 ]
 
 const router = createRouter({

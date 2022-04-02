@@ -4,9 +4,9 @@
 
         <section>
             <Text tag="h2">講座</Text>
-            <Text>オセロの勝ち方・戦術に関するページです。</Text>
-            <Text>初心者向け講座では、戦術を一切知らない人を想定しています。</Text>
-            <Text>到達想定レートは、各講座を読んでから対局した場合に到達すると予想されるレートです。(参考程度に)</Text>
+            <Text>オセロの勝ち方・戦術に関するページです。<br>
+            初心者向け講座では、戦術を一切知らない人を想定しています。<br>
+            到達想定レートは、各講座を読んでから対局した場合に到達すると予想されるレートです。(参考程度に)</Text>
 
             <template v-for="(lecture, lectureKey) in lectures" :key="lectureKey">
               <Text tag="h3">{{ lecture.category.jpName }}</Text>
@@ -52,7 +52,7 @@ export default defineComponent({
         items: [
           { title: '用語', path: '/lecture/beginner/terminology', rate: null },
           { title: '隅の重要性', path: '/lecture/beginner/importance-of-corners', rate: 800 },
-          { title: '自分の打てる場所を減らさない', path: '#', rate: 900 }
+          { title: '自分の打てる場所を減らさない', path: '/lecture/beginner/control-the-center', rate: 1000 }
         ]
       }
     ];

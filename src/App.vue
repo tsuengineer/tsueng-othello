@@ -20,6 +20,10 @@ a {
   text-decoration: underline;
 }
 
+p {
+  margin-bottom: 1em;
+}
+
 .marker {
   background: linear-gradient(transparent 65%, #ff3 65%);
   font-weight: bold;
