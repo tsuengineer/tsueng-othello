@@ -52,9 +52,13 @@
 
             <Text tag="h3">手筋等の名称</Text>
             <Text tag="h4">1石返し</Text>
+            <Text>1回の着手で1石だけひっくり返すこと。</Text>
             <Text tag="h4">中割り</Text>
+            <Text>内側の石を返す手筋。良手。</Text>
             <Text tag="h4">引っ張り</Text>
+            <Text>相手の壁を破らないように打つ手</Text>
             <Text tag="h4">ウィング攻め</Text>
+            <Text>相手に隅を1つ与える代わりに隅1つと辺を取る手筋</Text>
         </section>
     </div>
 </template>

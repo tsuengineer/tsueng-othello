@@ -26,6 +26,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'ControlTheCenter',
     component: () => import('../views/lecture/beginner/ControlTheCenterView.vue')
   },
+  {
+    path: '/lecture/beginner/control-the-center2',
+    name: 'ControlTheCenter2',
+    component: () => import('../views/lecture/beginner/ControlTheCenter2View.vue')
+  },
 ]
 
 const router = createRouter({
