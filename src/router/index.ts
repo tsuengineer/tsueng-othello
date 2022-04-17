@@ -31,6 +31,21 @@ const routes: Array<RouteRecordRaw> = [
     name: 'ControlTheCenter2',
     component: () => import('../views/lecture/beginner/ControlTheCenter2View.vue')
   },
+  {
+    path: '/lecture/beginner/balanced-moves',
+    name: 'BalancedMoves',
+    component: () => import('../views/lecture/beginner/BalancedMovesView.vue')
+  },
+  {
+    path: '/in-depth-study',
+    name: 'InDepthStudy',
+    component: () => import('../views/InDepthStudy/InDepthStudyView.vue')
+  },
+  {
+    path: '/in-depth-study/fjt-white',
+    name: 'FjtWhite',
+    component: () => import('../views/InDepthStudy/contents/FjtWhiteView.vue')
+  },
 ]
 
 const router = createRouter({

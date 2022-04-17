@@ -5,8 +5,8 @@
         <section>
             <Text tag="h2">内側の石を返す</Text>
             <Text>
-             <a href="/lecture/beginner/control-the-center">講座 ＞ 自分の打てる場所を減らさない</a>のページで<span class="marker">手詰まり</span>を防ぐためのテクニックとして内側の石を返す<span class="marker">中割り</span>を説明しました。<br>
-             ここではいろいろなパターンの中割りを紹介します。
+             <a href="/lecture/beginner/control-the-center">前回の講座</a>で<span class="marker">手詰まり</span>を防ぐためのテクニックとして内側の石を返す<span class="marker">中割り</span>を説明しました。<br>
+             今回はいろいろなパターンの中割りを紹介します。
             </Text>
 
             <Text tag="h3">おさらい</Text>
@@ -91,8 +91,9 @@
 "></iframe>
             <Text>序盤なので他にもいい手はありますが、最もいい手の1つが黒f6です。</Text>
             <Text>黒f6に打ったときに返ったe5の石に注目すると、e6のマスが空いているので<span class="marker">完全な中割り</span>ではありません。<br>
-            しかし、e6のマスは白が打てません。この形は<span class="marker">不完全な中割り</span>よりいい形です。</Text>
+            しかし、e6のマスは白が打てません。この形は空きマスに相手が打てないので<span class="marker">不完全な中割り</span>よりいい形です。</Text>
             <Text>このサイトではこの形を<span class="marker">良い中割り</span>と呼ぶことにします。</Text>
+            <Text>実戦では完全な中割り、良い中割り、不完全な中割りの順に探しましょう。</Text>
 
 
           <Text tag="h3">練習問題</Text>
