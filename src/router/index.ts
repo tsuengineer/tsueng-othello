@@ -46,6 +46,16 @@ const routes: Array<RouteRecordRaw> = [
     name: 'FjtWhite',
     component: () => import('../views/InDepthStudy/contents/FjtWhiteView.vue')
   },
+  {
+    path: '/topics',
+    name: 'Topics',
+    component: () => import('../views/Topics/TopicsView.vue')
+  },
+  {
+    path: '/topics/trap/tigers-trap',
+    name: 'TopicsTrapTigersTrapView',
+    component: () => import('../views/Topics/trap/TigersTrapView.vue')
+  },
 ]
 
 const router = createRouter({
