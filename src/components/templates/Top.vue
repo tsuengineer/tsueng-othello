@@ -48,44 +48,16 @@ export default defineComponent({
             path: '/lecture',
             discriptions: '初心者向け講座',
           },
-          // {
-          //   title: '隅の重要性',
-          //   path: '/',
-          //   discriptions: [
-          //     '隅が重要な理由', '隅を取られないようにするには',
-          //   ],
-          // },
-          // {
-          //   title: '終盤の考え方',
-          //   path: '/',
-          //   discriptions: [
-          //     'ウィング攻め', 'ライン通し', '偶数理論', '連打'
-          //   ],
-          // },
-          // {
-          //   title: '序盤～中盤の考え方',
-          //   path: '/',
-          //   discriptions: [
-          //     '打てる場所が多い方が有利', '打てる場所を減らさないように打つ', '全滅に気を付ける', '辺の取り方'
-          //   ],
-          // },
-          // {
-          //   title: 'レート別戦略',
-          //   path: '/strategy-by-rate',
-          //   discriptions: [
-          //     '800未満', '～1000未満', '～1200未満', '～1500未満'
-          //   ],
-          // },
           {
             title: 'ネタ',
             path: '/topics',
             discriptions: 'ハメ手など',
           },
-          // {
-          //   title: '問題集',
-          //   path: '#',
-          //   discriptions: '中割り、連打など',
-          // },
+          {
+            title: '徹底研究',
+            path: '/in-depth-study',
+            discriptions: '上級者向けコンテンツ',
+          },
         ]
       }
     ];
