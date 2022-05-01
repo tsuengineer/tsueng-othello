@@ -4,7 +4,7 @@
 
         <section>
             <Text tag="h2">徹底研究</Text>
-            <Text>上級者向け</Text>
+            <Text>上級者向けコンテンツです。<br>とりあえず完全暗記シリーズを公開予定です。</Text>
 
             <template v-for="(lecture, lectureKey) in lectures" :key="lectureKey">
               <Text tag="h3">{{ lecture.category.jpName }}</Text>
