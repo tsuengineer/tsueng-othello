@@ -81,11 +81,11 @@ export default defineComponent({
             path: '/topics',
             discriptions: 'ハメ手など',
           },
-          {
-            title: '問題集',
-            path: '#',
-            discriptions: '中割り、連打など',
-          },
+          // {
+          //   title: '問題集',
+          //   path: '#',
+          //   discriptions: '中割り、連打など',
+          // },
         ]
       }
     ];

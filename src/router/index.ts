@@ -37,6 +37,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/lecture/beginner/BalancedMovesView.vue')
   },
   {
+    path: '/lecture/beginner/unbalanced-edges',
+    name: 'UnbalancedEdges',
+    component: () => import('../views/lecture/beginner/UnbalancedEdgesView.vue')
+  },
+  {
     path: '/in-depth-study',
     name: 'InDepthStudy',
     component: () => import('../views/InDepthStudy/InDepthStudyView.vue')

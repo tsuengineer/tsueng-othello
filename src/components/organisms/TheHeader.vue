@@ -29,7 +29,7 @@
         <ul>
             <li><a href="/lecture">講座</a></li>
             <li><a href="/topics">ネタ</a></li>
-            <li>問題集</li>
+            <!-- <li>問題集</li> -->
         </ul>
     </nav>
   </header>

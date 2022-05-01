@@ -53,11 +53,13 @@ export default defineComponent({
           { title: '用語', path: '/lecture/beginner/terminology', rate: null },
           { title: '隅の重要性', path: '/lecture/beginner/importance-of-corners', rate: 800 },
           { title: '自分の打てる場所を減らさない', path: '/lecture/beginner/control-the-center', rate: 950 },
-          { title: '内側の石を返す', path: '/lecture/beginner/control-the-center2', rate: 1000 },
-          { title: '壁を破らない', path: '/lecture/beginner/balanced-moves', rate: 1050 },
-          // { title: '肉を切らせて骨を断つ', path: '/lecture/beginner/attack-the-edge', rate: 1300 },
-          // { title: 'C打ちしてもいいケース', path: '/lecture/beginner/consecutive-moves', rate: 1400 },
-          // { title: '連打を見逃さない', path: '/lecture/beginner/consecutive-moves', rate: 1450 },
+          { title: '内側の石を返す(中割り)', path: '/lecture/beginner/control-the-center2', rate: 1000 },
+          { title: '壁を破らない(引っ張り)', path: '/lecture/beginner/balanced-moves', rate: 1050 },
+          { title: 'ウィング攻め', path: '/lecture/beginner/unbalanced-edges', rate: 1150 },
+          // { title: 'ラインを通す', path: '/lecture/beginner/unbalanced-edges', rate: 1200 },
+          // { title: 'C打ちしてもいいケース', path: '/lecture/beginner/consecutive-moves', rate: 1250 },
+          // { title: '余裕手', path: '/lecture/beginner/consecutive-moves', rate: 1350 },
+          // { title: '連打を見逃さない', path: '/lecture/beginner/consecutive-moves', rate: 1400 },
           // { title: '奇数空きから打つ', path: '/lecture/beginner/even-number-theory', rate: 1500 },
         ]
       }
