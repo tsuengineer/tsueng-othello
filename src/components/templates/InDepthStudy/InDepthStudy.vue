@@ -31,7 +31,7 @@ export default defineComponent({
   components: { Text, TopicPath },
   setup() {
     const topicPaths = [
-      {path: '/', label: 'トップページ'},
+      {path: '/othello', label: 'トップページ'},
       {path: null, label: '徹底研究'},
     ];
 
@@ -39,7 +39,7 @@ export default defineComponent({
       {
         category: { alpha: 'white', jpName: '白番' },
         items: [
-          { title: 'FJT 最善受け編', path: '/in-depth-study/fjt-white', rate: null },
+          { title: 'FJT 最善受け編', path: '/othello/in-depth-study/fjt-white', rate: null },
         ]
       }
     ];

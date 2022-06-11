@@ -51,8 +51,8 @@ export default defineComponent({
   components: { Text, TopicPath },
   setup() {
     const topicPaths = [
-      {path: '/', label: 'トップページ'},
-      {path: '/topics', label: 'ネタ'},
+      {path: '/othello/', label: 'トップページ'},
+      {path: '/othello/topics', label: 'ネタ'},
       {path: null, label: '虎全滅'},
     ];
 

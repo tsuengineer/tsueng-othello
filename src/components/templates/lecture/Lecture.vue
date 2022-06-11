@@ -42,7 +42,7 @@ export default defineComponent({
   components: { Text, TopicPath },
   setup() {
     const topicPaths = [
-      {path: '/', label: 'トップページ'},
+      {path: '/othello', label: 'トップページ'},
       {path: null, label: '講座'},
     ];
 
@@ -50,17 +50,17 @@ export default defineComponent({
       {
         category: { alpha: 'beginner', jpName: '初心者向け' },
         items: [
-          { title: '用語', path: '/lecture/beginner/terminology', rate: null },
-          { title: '隅の重要性', path: '/lecture/beginner/importance-of-corners', rate: 800 },
-          { title: '自分の打てる場所を減らさない', path: '/lecture/beginner/control-the-center', rate: 950 },
-          { title: '内側の石を返す(中割り)', path: '/lecture/beginner/control-the-center2', rate: 1000 },
-          { title: '壁を破らない(引っ張り)', path: '/lecture/beginner/balanced-moves', rate: 1050 },
-          { title: 'ウィング攻め', path: '/lecture/beginner/unbalanced-edges', rate: 1150 },
-          // { title: 'ラインを通す', path: '/lecture/beginner/unbalanced-edges', rate: 1200 },
-          // { title: 'C打ちしてもいいケース', path: '/lecture/beginner/consecutive-moves', rate: 1250 },
-          // { title: '余裕手', path: '/lecture/beginner/consecutive-moves', rate: 1350 },
-          // { title: '連打を見逃さない', path: '/lecture/beginner/consecutive-moves', rate: 1400 },
-          // { title: '奇数空きから打つ', path: '/lecture/beginner/even-number-theory', rate: 1500 },
+          { title: '用語', path: '/othello/lecture/beginner/terminology', rate: null },
+          { title: '隅の重要性', path: '/othello/lecture/beginner/importance-of-corners', rate: 800 },
+          { title: '自分の打てる場所を減らさない', path: '/othello/lecture/beginner/control-the-center', rate: 950 },
+          { title: '内側の石を返す(中割り)', path: '/othello/lecture/beginner/control-the-center2', rate: 1000 },
+          { title: '壁を破らない(引っ張り)', path: '/othello/lecture/beginner/balanced-moves', rate: 1050 },
+          { title: 'ウィング攻め', path: '/othello/lecture/beginner/unbalanced-edges', rate: 1150 },
+          // { title: 'ラインを通す', path: '/othello/lecture/beginner/unbalanced-edges', rate: 1200 },
+          // { title: 'C打ちしてもいいケース', path: '/othello/lecture/beginner/consecutive-moves', rate: 1250 },
+          // { title: '余裕手', path: '/othello/lecture/beginner/consecutive-moves', rate: 1350 },
+          // { title: '連打を見逃さない', path: '/othello/lecture/beginner/consecutive-moves', rate: 1400 },
+          // { title: '奇数空きから打つ', path: '/othello/lecture/beginner/even-number-theory', rate: 1500 },
         ]
       }
     ];

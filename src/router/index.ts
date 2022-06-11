@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import {createRouter, createWebHistory, RouteRecordRaw, RouterOptions} from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -63,9 +63,10 @@ const routes: Array<RouteRecordRaw> = [
   },
 ]
 
-const router = createRouter({
+const router = createRouter(<RouterOptions>{
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  base: '/othello/',
 })
 
 export default router

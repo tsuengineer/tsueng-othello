@@ -32,7 +32,7 @@ export default defineComponent({
   components: { Text, TopicPath },
   setup() {
     const topicPaths = [
-      {path: '/', label: 'トップページ'},
+      {path: '/othello/', label: 'トップページ'},
       {path: null, label: 'ネタ'},
     ];
 
@@ -40,7 +40,7 @@ export default defineComponent({
       {
         category: { alpha: 'perfectTrap', jpName: '全滅' },
         items: [
-          { title: '虎全滅', path: '/topics/trap/tigers-trap' },
+          { title: '虎全滅', path: '/othello/topics/trap/tigers-trap' },
         ]
       }
     ];

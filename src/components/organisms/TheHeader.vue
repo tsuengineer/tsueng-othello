@@ -1,7 +1,7 @@
 <template>
   <header>
     <div id="header-inner">
-        <a href="/">
+        <a href="/othello">
             <h1 id="title" class="">オセロ | tsueng.dev</h1>
         </a>
         <div class="flex items-center">
@@ -27,9 +27,9 @@
 
     <nav class="menu absolute w-60 right-3 top-14 border rounded shadow-lg bg-white" :class="isActive ? 'active' : ''">
         <ul>
-            <li><a href="/lecture">講座</a></li>
-            <li><a href="/topics">ネタ</a></li>
-            <li><a href="/in-depth-study">徹底研究</a></li>
+            <li><a href="/othello/lecture">講座</a></li>
+            <li><a href="/othello/topics">ネタ</a></li>
+            <li><a href="/othello/in-depth-study">徹底研究</a></li>
         </ul>
     </nav>
   </header>

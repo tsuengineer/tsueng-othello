@@ -45,17 +45,17 @@ export default defineComponent({
         contents: [
           {
             title: '講座',
-            path: '/lecture',
+            path: '/othello/lecture',
             discriptions: '初心者向け講座',
           },
           {
             title: 'ネタ',
-            path: '/topics',
+            path: '/othello/topics',
             discriptions: 'ハメ手など',
           },
           {
             title: '徹底研究',
-            path: '/in-depth-study',
+            path: '/othello/in-depth-study',
             discriptions: '上級者向けコンテンツ',
           },
         ]

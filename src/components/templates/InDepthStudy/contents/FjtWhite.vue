@@ -62,8 +62,8 @@ export default defineComponent({
   components: { Text, TopicPath },
   setup() {
     const topicPaths = [
-      {path: '/', label: 'トップページ'},
-      {path: '/in-depth-study', label: '徹底研究'},
+      {path: '/othello', label: 'トップページ'},
+      {path: '/othello/in-depth-study', label: '徹底研究'},
       {path: null, label: 'FJT 白最善受け編'},
     ];
 
